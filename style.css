@@ -63,6 +63,7 @@ html {
 
 body {
 	margin: 0;
+	font-size: 18px !important;
 }
 
 article,
@@ -2403,8 +2404,7 @@ body.search-no-results .page-header {
 
 .site-info {
 	color: #686868;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-size: 15px;
 	line-height: 1.6153846154;
 }
 
@@ -3982,4 +3982,32 @@ p > video {
 #header-img, #header-img img{
 	max-height: 280px;
 	text-align: center;
+}
+
+#tagline{
+	text-align: center;
+	margin: 40px 0;
+}
+
+#recent-podcasts{
+	margin: 40px 0;
+}
+
+#recent-podcasts h3, #join h3, #sponsors h3{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.recent-podcast .title{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+.channel-artwork img{
+	width: 100%;
+}
+
+#join{
+	margin-bottom: 50px;
 }
