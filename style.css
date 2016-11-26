@@ -3979,35 +3979,56 @@ p > video {
 /* Template CSS */
 
 /* Home */
-#header-img, #header-img img{
-	max-height: 280px;
+	#header-img, #header-img img{
+		max-height: 280px;
+		text-align: center;
+	}
+
+	#tagline{
+		text-align: center;
+		margin: 40px 0;
+	}
+
+	#recent-podcasts{
+		margin: 40px 0;
+	}
+
+	#recent-podcasts h3, #join h3, #sponsors h3{
+		text-align: center;
+		font-weight: bold;
+		margin-bottom: 40px;
+	}
+
+	.recent-podcast .title{
+	    font-weight: bold;
+	    font-size: 1.1em;
+	    margin: 15px 0;
+	}
+	.channel-artwork img{
+		width: 100%;
+	}
+
+	#join{
+		margin-bottom: 50px;
+	}
+
+/* Disturbances */
+.channel{
 	text-align: center;
+	margin-bottom: 75px;
 }
 
-#tagline{
-	text-align: center;
-	margin: 40px 0;
-}
-
-#recent-podcasts{
-	margin: 40px 0;
-}
-
-#recent-podcasts h3, #join h3, #sponsors h3{
-	text-align: center;
-	font-weight: bold;
-	margin-bottom: 40px;
-}
-
-.recent-podcast .title{
+.channel .title{
     font-weight: bold;
     font-size: 1.1em;
     margin: 15px 0;
 }
-.channel-artwork img{
-	width: 100%;
+
+.channel .episodes{
+	text-align: left
 }
 
-#join{
-	margin-bottom: 50px;
+.channel .episode{
+	margin-bottom: 10px;
+	color: grey;
 }

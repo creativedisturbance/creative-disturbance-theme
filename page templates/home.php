@@ -101,12 +101,11 @@ get_header(); ?>
 			<br>
 			<form id="mc-embedded-subscribe-form" class="validate" action="//creativedisturbance.us8.list-manage.com/subscribe/post?u=62ed54e8b9c4a51a8a5976659&amp;id=f90796f638" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
 				<div>
-					<input id="mce-EMAIL" class="required email" style="height: 40px; width: 90%;" name="EMAIL" type="email" value="" placeholder="Subscribe to Our Newsletter" />
+					<input id="mce-EMAIL" class="required email" style="height: 40px; width: 90%;" name="EMAIL" type="email" value="" placeholder="Email Address" />
 					<input id="mc-embedded-subscribe" class="vcex-newsletter-form-button" style="width: 9%; height: 41px;" name="subscribe" type="submit" value="Join" />
 				</div>
 			</form>
 		</div>
-
 
 		<div id="sponsors">
 			<h3>Sponsors</h3>
