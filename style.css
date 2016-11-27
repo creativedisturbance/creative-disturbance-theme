@@ -4063,3 +4063,44 @@ p > video {
 		margin-right: 15px;
 	}
 	
+
+/* Voices */
+	.voice{
+		text-align: center;
+		margin-bottom: 25px;
+		-webkit-filter: grayscale(0); 
+		-webkit-filter: grayscale(0); 
+		-moz-filter: grayscale(0);
+		filter: gray; 
+		filter: grayscale(0);
+	}
+	.title{
+		color: #333;
+		font-weight: bold
+	}
+	.expertise{
+		color: #999;
+	}
+	.photo{
+		margin-bottom: 15px;
+	}
+	.voice img{
+		-webkit-filter: grayscale(1); 
+		-webkit-filter: grayscale(100%); 
+		-moz-filter: grayscale(100%);
+		filter: gray; 
+		filter: grayscale(100%);
+	}
+	.voice:hover{
+		text-decoration: none;
+	}
+	.voice:hover .title{
+		color: #007acc;
+	}
+	.voice:hover img{
+		-webkit-filter: grayscale(0); 
+		-webkit-filter: grayscale(0); 
+		-moz-filter: grayscale(0);
+		filter: gray; 
+		filter: grayscale(0);
+	}
