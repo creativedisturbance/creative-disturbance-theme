@@ -4063,7 +4063,6 @@ p > video {
 		margin-right: 15px;
 	}
 	
-
 /* Voices */
 	.voice{
 		text-align: center;
@@ -4103,4 +4102,22 @@ p > video {
 		-moz-filter: grayscale(0);
 		filter: gray; 
 		filter: grayscale(0);
+	}
+
+/* Single Voice */
+	.voice-detail{
+		margin-bottom: 20px;
+	}
+	.voice-detail .detail{
+		font-weight: bold;
+	}
+	.voice-detail .value{
+		color: #555;
+	}
+	#voice-header{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.podcast{
+		margin-bottom: 10px;
 	}
