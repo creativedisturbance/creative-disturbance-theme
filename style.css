@@ -4013,22 +4013,53 @@ p > video {
 	}
 
 /* Disturbances */
-.channel{
-	text-align: center;
-	margin-bottom: 75px;
-}
+	.channel{
+		text-align: center;
+		margin-bottom: 75px;
+	}
 
-.channel .title{
-    font-weight: bold;
-    font-size: 1.1em;
-    margin: 15px 0;
-}
+	.channel .title{
+	    font-weight: bold;
+	    font-size: 1.1em;
+	    margin: 15px 0;
+	}
 
-.channel .episodes{
-	text-align: left
-}
+	.channel .episodes{
+		text-align: left
+	}
 
-.channel .episode{
-	margin-bottom: 10px;
-	color: grey;
-}
+	.channel .episode{
+		margin-bottom: 10px;
+		color: grey;
+	}
+
+/* Single Channel */
+	#channel-header{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	#channel-header h3{
+		margin-bottom: 50px;
+	}
+
+	#channel-about{
+		font-family: serif;
+		font-family: 19px;
+	}
+
+	#hosts{
+		font-weight: bold;
+	}
+
+	#recent-podcasts .podcast{
+		margin-bottom: 20px;
+	}
+	
+	#recent-podcasts .podcast .voice:hover{
+		text-decoration: none;
+	}
+
+	#recent-podcasts .podcast .voice img{
+		margin-right: 15px;
+	}
+	
